@@ -20,4 +20,4 @@
 
 ![imagem](https://pplware.sapo.pt/wp-content/uploads/2020/06/telegram_00-720x422.jpg)
 
-### [full code](github.com)
+### [full code](https://github.com/wesley587/checking_commit-Bot/blob/main/Commit-Bot)
