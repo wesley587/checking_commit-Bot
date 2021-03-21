@@ -10,7 +10,7 @@ class TelegraBot:
     def __init__(self, active_func=None, seconds=10):
         self.seconds = seconds
         self.active_func = active_func
-        token = '1545889889:AAH2YDuhJ3V2DgnQ8zfjfUqvEw94Rc94r-4'
+        token = 'your token' #pass your token
         self.url_base = f'https://api.telegram.org/bot{token}/'
 
     def start(self):
@@ -156,8 +156,8 @@ class TelegraBot:
             send_link = f'{self.url_base}sendMessage?chat_id={chat_id}&text={answer_txt}'
         requests.get(send_link)
 
-
-bot = TelegraBot()
-a = threading.Thread()
-a.start()
-threading.Thread(target=bot.start).start()
+if __name__ == '__main__':
+    bot = TelegraBot()
+    a = threading.Thread()
+    a.start()
+    threading.Thread(target=bot.start).start()
