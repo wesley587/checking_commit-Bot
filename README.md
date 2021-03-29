@@ -9,17 +9,14 @@ bot than monitors new commits in the specified repository, and notifies via Tele
 
 The fist step is cheat a telegram Bot, to learn how creat acess (this link)
 
-After the creating of a Telegram Bot, you must run commit-Bot.py in a python interpreter with your Token
-
-## add photo
-
 ## Usage 
 ---
 ### Runing commit-Bot.py
 
-In commit-bot.py is necessary change the token field 
+After the creating of a Telegram Bot, you must run commit-Bot.py in a python interpreter with your Token, and install all library
 
-## Photo
+![token](https://user-images.githubusercontent.com/72465364/112782518-9a2fa180-9023-11eb-8103-214635b5c55d.jpg)
+
 ---
 ## Using commands 
 ---
@@ -27,12 +24,13 @@ commands that can be used to speak the bot
 
 | command  | description | how to use |
 | -------- |------------ | ---------- |
-| /subscribe | This command is used to start monitor a repository | /subscribe aconut_name repository_name |
-| /unsubscribe | Used to stop monitoring a repository | /unsubscribe /subscribe aconut_name repository_name |
+| /subscribe | This command is used to start monitor a repository | **/subscribe aconut_name repository_name branch_name**|
+| /unsubscribe | Used to stop monitoring a repository | ** /unsubscribe /subscribe aconut_name repository_name** |
 | /sleep | Used to specify how often to check the repository, default 10 seconds | /sleep seconds in intereble | 
 | /list | Show all repository beingn monitored | /list |
 | /menu | Show the menu | /menu |
 
-![imagem](https://pplware.sapo.pt/wp-content/uploads/2020/06/telegram_00-720x422.jpg)
+![retorno](https://user-images.githubusercontent.com/72465364/112782659-eda1ef80-9023-11eb-8421-f8c79e6ed11e.jpg)
 
-### [full code](https://github.com/wesley587/checking_commit-Bot/blob/main/Commit-Bot)
+
+### [full code](https://github.com/wesley587/checking_commit-Bot/Commit-Bot)
